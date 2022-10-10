@@ -1,3 +1,5 @@
+package(default_visibility = ["//visibility:public"])
+
 load("//:def.bzl", "string_build_setting")
 
 string_build_setting(
