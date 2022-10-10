@@ -16,7 +16,7 @@ cc_library(
 		"//conditions:default" :["src/string.c"],
 		}),
 	hdrs = ["inc/string.h"],
-	includes = ["."],
+	includes = ["inc/"],
 )
 
 config_setting(
